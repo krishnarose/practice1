@@ -1,8 +1,10 @@
 "use client";
 
 import FeaturdCourses from "@/components/FeaturdCourses";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import HeroSection from "@/components/ui/HeroSection";
+
 
 export default function Home() {
   return <>
@@ -10,6 +12,7 @@ export default function Home() {
   <HeroSection/>
   <FeaturdCourses/>
   <WhyChooseUs/>
+  <InfiniteMovingCardsDemo/>
   </main>
   </>;
 }
