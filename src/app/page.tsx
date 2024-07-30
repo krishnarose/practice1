@@ -2,6 +2,7 @@
 
 import FeaturdCourses from "@/components/FeaturdCourses";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+import UpComingWebinar from "@/components/UpComingWebinar";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import HeroSection from "@/components/ui/HeroSection";
 
@@ -13,6 +14,7 @@ export default function Home() {
   <FeaturdCourses/>
   <WhyChooseUs/>
   <InfiniteMovingCardsDemo/>
+  <UpComingWebinar/>
   </main>
   </>;
 }
